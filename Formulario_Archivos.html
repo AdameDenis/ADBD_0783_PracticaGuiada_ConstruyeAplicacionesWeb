@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Adame Durán Brenda Denis 0783 5J -->
+<!-- Configuración de lenguaje -->
+<html lang="es">
+<!-- Encabezado con configuración principal -->
+<head>
+<meta charset="UTF-8">
+<!-- Tamaño de la página -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Libreria de iconos en linea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+<title>ADBD0783 Práctica 7_Formularios</title>
+</head>
+
+<!-- Cuerpo del documento -->
+<body>
+<h2>Formulario con archivos</h2>
+<form action="" method="post">
+
+Ingresa tu nombre:
+<input type="text" name="nombre">
+<br>
+<!-- Muestra un botón para examinar y seleccionar archivos del dispositivo y lo almacena en la variable -->
+<input type="file" name="archivo">
+<br>
+ <!-- Botón: "submit" toma los datos y los envia al dar clic en el botón, además se añade el ícono de avión de papel -->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+ <!-- Botón: "reset" limpia los campos llenados al dar clic en el botón, además se añade el ícono de bote de basura -->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+ <!-- form enviará al servidor los datos -->
+</form>
+</body>
+</html>
