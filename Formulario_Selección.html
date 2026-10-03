@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Adame Durán Brenda Denis 0783 5J -->
+<!-- Configuración de lenguaje -->
+<html lang="es">
+<!-- Encabezado con configuración principal -->
+<head>
+<meta charset="UTF-8">
+<!-- Tamaño de la página -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Libreria de iconos en línea -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/7.3.1/css/all.min.css">
+<title>ADBD0783 Práctica 7_Formularios</title>
+</head>
+
+<!-- Cuerpo del documento -->
+<body>
+<h2>Formularios con seleccion</h2>
+   <!-- <form>: define el contenedor de los campos; action=: indica la ruta que va a procesar los datos; method="post": oculta la información enviada -->
+<form action="" method="post">
+Ingresa tu nombre:
+<input type="text" name="nombre">
+
+<br>
+Selecciona tu pais:
+<!-- Select muestra un listado de opciones en el que se elige solo una -->
+<select name="pais">
+<option value="1">Argentina</option> <!--Opción -->
+<option value="2">España</option> <!--Opción -->
+<option value="3">Mexico</option> <!--Opción -->
+<option value="4">Guatemala</option> <!--Opción -->
+<option value="5">Honduras</option> <!--Opción -->
+<option value="6">El Salvador</option> <!--Opción -->
+<option value="7">Venezuela</option> <!--Opción -->
+<option value="8">Colombia</option> <!--Opción -->
+</select>
+<br>
+ <input type="submit" value="Enviar">
+ <!-- "reset" limpia los campos llenados al dar clic en el botón -->
+ <input type="reset" value="Borrar">
+ <!-- form enviará al servidor los datos -->
+</form>
+</body>
+</html>
