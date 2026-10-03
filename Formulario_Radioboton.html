@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Adame Durán Brenda Denis 0783 5J -->
+<!-- Configuración de lenguaje -->
+<html lang="es">
+<!-- Encabezado con configuración principal -->
+<head>
+<meta charset="UTF-8">
+<!-- Tamaño de la página -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADBD0783 Práctica 7_Formularios</title>
+</head>
+
+<!-- Cuerpo del documento -->
+<body>
+<h2>Formularios con Radioboton</h2>
+   <!-- <form>: define el contenedor de los campos; action=: indica la ruta que va a procesar los datos; method="post": oculta la información enviada -->
+<form action="" method="post">
+Ingresa tu nombre:
+   <!-- <input type="text">: es el tipo de dato a recibir name="nombre" es el nombre de la variable -->
+<input type="text" name="nombre">
+<br>
+Selecciona el maximo de estudios que tienes:
+<br>
+<!-- type="radio" crea un botón circular para seleccionar una sola opción; nombre de la variable; value sirve para distinguir la opción dentro de un grupo -->
+<input type="radio" name="estudios" value="1">Sin estudios <br>
+<input type="radio" name="estudios" value="2">Primaria <br>
+<input type="radio" name="estudios" value="3">Secundaria <br>
+<input type="radio" name="estudios" value="4">Preparatoria <br>
+ <!-- "submit" toma los datos y los envia al dar clic en el botón -->
+<input type="submit" value="Enviar">
+ <!-- "reset" limpia los campos llenados al dar clic en el botón -->
+<input type="reset" value="Borrar">
+ <!-- form enviará al servidor los datos -->
+</form>
+</body>
+</html>
